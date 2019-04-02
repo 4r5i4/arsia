@@ -1,14 +1,26 @@
 .name-heading {
 	font-weight: bolder;
 	font-size: 8vw;
-	/* font-family: Nunito; */
+	font-family: "EB Garamond";
+	/* font-family: "Playfair Display"; */
+	/* font-family: "Josefin Sans"; */
+	/* font-family: "Varela Round"; */
+	/* font-family: "Elsie Swash Caps"; */
+	/* font-family: "Ewert"; */
 	line-height: 80%;
 	padding-left: 30px;
+	/* background: linear-gradient(to bottom, #999b23 0%, #050505 40%); */
+	/* -webkit-background-clip: text; */
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	letter-spacing: 0.2em;
+	font-weight: bolder;
+	/* -webkit-text-fill-color: transparent; */
 	width: 50%;
+	/* letter-spacing: 0.2em; */
 	margin-bottom: 40px;
 	margin-top: 50px;
-	text-shadow: 10px 30px 20px grey, 0 17px 50px rgba(0, 0, 0, 0.19);
-	animation-name: ghostBounce;
+	/* text-shadow: 10px 30px 20px grey, 0 17px 50px rgba(0, 0, 0, 0.19); */
+	/* animation-name: ghostBounce; */
 	animation-iteration-count: infinite;
 	animation-duration: 2s;
 	/* animation-delay: 2s; */
