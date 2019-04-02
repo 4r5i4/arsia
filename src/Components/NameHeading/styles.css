@@ -1,15 +1,18 @@
 .name-heading {
 	font-weight: bolder;
-	font-size: 10vw;
+	font-size: 8vw;
+	/* font-family: Nunito; */
 	line-height: 80%;
 	padding-left: 30px;
 	width: 50%;
 	margin-bottom: 40px;
-	margin-top: 20px;
-	text-shadow: 10px 10px 5px lightgrey, 0 17px 50px rgba(0, 0, 0, 0.19);
+	margin-top: 50px;
+	text-shadow: 10px 30px 20px grey, 0 17px 50px rgba(0, 0, 0, 0.19);
 	animation-name: ghostBounce;
 	animation-iteration-count: infinite;
 	animation-duration: 2s;
+	/* animation-delay: 2s; */
+	animation-timing-function: ease-in-out;
 	position: relative;
 }
 
@@ -17,16 +20,16 @@
 	0% {
 		top: 0px;
 		left: 0px;
-		text-shadow: 20px 30px 20px lightgrey, 0 17px 50px rgba(0, 0, 0, 0.19);
+		text-shadow: 10px 30px 20px grey, 0 17px 50px rgba(0, 0, 0, 0.19);
 	}
 	50% {
 		top: 5px;
 		left: 5px;
-		text-shadow: 1px 1px 1px lightgrey, 0 17px 50px rgba(0, 0, 0, 0.19);
+		text-shadow: 0px 0px 0px grey, 0 17px 50px rgba(0, 0, 0, 0.19);
 	}
 	100% {
 		top: 0px;
 		left: 0px;
-		text-shadow: 20px 30px 20px lightgrey, 0 17px 50px rgba(0, 0, 0, 0.19);
+		text-shadow: 10px 30px 20px grey, 0 17px 50px rgba(0, 0, 0, 0.19);
 	}
 }

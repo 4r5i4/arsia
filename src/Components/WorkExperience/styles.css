@@ -1,0 +1,16 @@
+.work-experience {
+	/* line-height: 20%; */
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	padding: 10px;
+}
+
+.experience-meta {
+	width: 30%;
+}
+
+.experience-description {
+	width: 70%;
+	margin-left: 50px;
+}
