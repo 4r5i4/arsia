@@ -3,9 +3,11 @@ import './styles.css';
 
 const NameHeading = (props) => {
 	return (
-		<div className="name-heading">
-			<div>{props.name}</div>
-			<div>{props.lastName}</div>
+		<div style={{ position: 'relative' }}>
+			<div className="name-heading">
+				<div>{props.name}</div>
+				<div>{props.lastName}</div>
+			</div>
 		</div>
 	);
 };

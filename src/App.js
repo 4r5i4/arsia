@@ -21,9 +21,6 @@ class App extends Component {
 		if (this.state.backgroundColorWhite) {
 			document.body.style.backgroundColor = 'black';
 			document.body.style.color = 'white';
-			document.getElementsByClassName('navigation-menu')[0].style.backgroundColor = 'white';
-			document.getElementsByClassName('navigation-btn')[0].style.backgroundColor = 'white';
-			document.getElementsByClassName('navigation-btn')[0].style.color = 'black';
 		} else {
 			document.body.style.backgroundColor = 'white';
 			document.body.style.color = 'black';
@@ -31,10 +28,9 @@ class App extends Component {
 	};
 	render() {
 		return (
-			<div style={{ padding: '80px', letterSpacing: '5px' }}>
-				<NavigationMenu buttons={navButtons} />
-
+			<div>
 				<NameHeading name={name} lastName={lastName} />
+				<NavigationMenu buttons={navButtons} />
 				<button onClick={this.invertColors}>CLICK HERE</button>
 			</div>
 		);
