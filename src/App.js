@@ -4,6 +4,8 @@ import NavigationButton from './Components/NavigationButton/navigationButton';
 import NameHeading from './Components/NameHeading/nameHeading';
 
 const navButtons = [ 'resume', 'about', 'contact' ];
+const name = 'ARSIA';
+const lastName = 'ARDALAN';
 
 class App extends Component {
 	constructor(props) {
@@ -19,6 +21,9 @@ class App extends Component {
 		if (this.state.backgroundColorWhite) {
 			document.body.style.backgroundColor = 'black';
 			document.body.style.color = 'white';
+			document.getElementsByClassName('navigation-menu')[0].style.backgroundColor = 'white';
+			document.getElementsByClassName('navigation-btn')[0].style.backgroundColor = 'white';
+			document.getElementsByClassName('navigation-btn')[0].style.color = 'black';
 		} else {
 			document.body.style.backgroundColor = 'white';
 			document.body.style.color = 'black';
@@ -29,7 +34,8 @@ class App extends Component {
 			<div style={{ padding: '80px', letterSpacing: '5px' }}>
 				<NavigationMenu buttons={navButtons} />
 
-				<NameHeading name="ARSIA" lastName="ARDALAN" />
+				<NameHeading name={name} lastName={lastName} />
+				<button onClick={this.invertColors}>CLICK HERE</button>
 			</div>
 		);
 	}

@@ -7,7 +7,7 @@ const NavigationMenu = (props) => {
 	return (
 		<div className="navigation-menu">
 			{props.buttons.map((button) => {
-				return <NavigationButton name={button} />;
+				return <NavigationButton name={button} key={button} />;
 			})}
 		</div>
 	);
