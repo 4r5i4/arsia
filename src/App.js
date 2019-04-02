@@ -21,6 +21,7 @@ class App extends Component {
 		if (this.state.backgroundColorWhite) {
 			document.body.style.backgroundColor = 'black';
 			document.body.style.color = 'white';
+			document.getElementsByClassName('name-heading')[0].style.textShadow = 'none';
 		} else {
 			document.body.style.backgroundColor = 'white';
 			document.body.style.color = 'black';
