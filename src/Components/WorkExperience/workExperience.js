@@ -8,17 +8,19 @@ const WorkExperience = (props) => {
 				return (
 					<div className="work-experience" key={index}>
 						<div className="experience-meta">
-							<p className="position">{experience.position}</p>
-							<p className="company-name">{experience.companyName}</p>
-							<p className="start-date">{experience.startDate}</p>
-							<p className="end-date">{experience.endDate}</p>
-							<p className="location">{experience.location}</p>
+							<p className="meta-position">{experience.position}</p>
+							<p className="meta-company-name">{experience.companyName}</p>
+							<p className="meta-start-date">{experience.startDate}</p>
+							<p className="meta-to">to</p>
+							<p className="meta-end-date">{experience.endDate}</p>
+							<p className="meta-location">{experience.location}</p>
 						</div>
-						<ul className="experience-description">
-							{experience.description.map((des, index) => {
-								return <li key={index}>-{des}</li>;
+
+						<div className="experience-description">
+							{experience.descriptions.map((description, index) => {
+								return <li key={index}>{description}</li>;
 							})}
-						</ul>
+						</div>
 					</div>
 				);
 			})}

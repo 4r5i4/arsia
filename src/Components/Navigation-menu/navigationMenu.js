@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import About from '../About/about';
 import Resume from '../Resume/resume';
@@ -12,7 +12,7 @@ const NavigationMenu = (props) => {
 		<Router>
 			<div className="navigation-menu">
 				{props.buttons.map((button, index) => {
-					if (button != 'resume') {
+					if (button !== 'resume') {
 						return (
 							<Link to={`/${button}`} key={index}>
 								<NavigationButton name={button} />

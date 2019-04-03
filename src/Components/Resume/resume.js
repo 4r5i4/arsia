@@ -8,7 +8,7 @@ const workExperience = [
 		startDate: 'NOV 2018',
 		endDate: 'FEB 2019',
 		location: 'Montreal, QC',
-		description: [
+		descriptions: [
 			'Created front-end components using Backbone.js and React.js',
 			'Refactored Backbone.js code into React.js',
 			'Debugged back-end API written in Python.',
@@ -28,7 +28,7 @@ const workExperience = [
 		startDate: 'APR 2018',
 		endDate: 'NOV 2018',
 		location: 'Ottawa, ON',
-		description: [
+		descriptions: [
 			'Self-taught React.js developer',
 			'Responsible for constructing and implementing a front-end dashboard involving React, Redux, and ES2018 for client 1996 Photo Lab for sales, inventory, and staff management and scheduling.',
 			'Created RESTful API endpoints using Express.js allowing real-time communication with Socket.io',
@@ -45,7 +45,7 @@ const workExperience = [
 		startDate: 'APR 2017',
 		endDate: 'FEB 2018',
 		location: 'Ottawa, ON',
-		description: [
+		descriptions: [
 			'Used Backbone.js, jQuery, and Bootstrap in wireframing to create forms and UI elements.',
 			'Collaborated with product and support teams in delivering new features and tier 3 support.',
 			'Wrote custom workflows using JavaScript and JS framework Seneca.js.',
