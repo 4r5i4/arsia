@@ -1,5 +1,6 @@
 .work-experience {
 	font-family: "Varela Round";
+	/* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 	/* font-family: "EB Garamond"; */
 	/* margin-left: 1rem; */
 	/* line-height: 20%; */
@@ -13,21 +14,24 @@
 .experience-meta {
 	flex-grow: 0;
 	flex-shrink: 0;
-	flex-basis: 30%;
+	flex-basis: 15%;
 	margin: 5px;
 }
 
 .experience-description {
 	flex-grow: 0;
 	flex-shrink: 0;
-	flex-basis: 65%;
+	flex-basis: 75%;
 	margin: 5px;
+	font-weight: 100;
+	font-size: 1.2em;
 }
 
 .meta-position {
 	font-weight: bold;
 	font-size: 1.2em;
-	color: purple;
+	/* color: rgb(6, 158, 145); */
+	color: rgb(194, 88, 2);
 }
 
 [class*='date'] {

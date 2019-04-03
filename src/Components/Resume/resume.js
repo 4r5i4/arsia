@@ -5,8 +5,8 @@ const workExperience = [
 	{
 		position: 'Full-Stack Web Developer',
 		companyName: 'BroadSign International',
-		startDate: 'NOV 2018',
-		endDate: 'FEB 2019',
+		startDate: 'Nov 2018',
+		endDate: 'Feb 2019',
 		location: 'Montreal, QC',
 		descriptions: [
 			'Created front-end components using Backbone.js and React.js',
@@ -25,8 +25,8 @@ const workExperience = [
 	{
 		position: 'Freelance Developer',
 		companyName: 'Self Employed',
-		startDate: 'APR 2018',
-		endDate: 'NOV 2018',
+		startDate: 'Apr 2018',
+		endDate: 'Nov 2018',
 		location: 'Ottawa, ON',
 		descriptions: [
 			'Self-taught React.js developer',
@@ -42,8 +42,8 @@ const workExperience = [
 	{
 		position: 'Full-Stack Application Developer',
 		companyName: 'iSight Customer Expressions',
-		startDate: 'APR 2017',
-		endDate: 'FEB 2018',
+		startDate: 'Apr 2017',
+		endDate: 'Feb 2018',
 		location: 'Ottawa, ON',
 		descriptions: [
 			'Used Backbone.js, jQuery, and Bootstrap in wireframing to create forms and UI elements.',
