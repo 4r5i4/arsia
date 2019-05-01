@@ -25,23 +25,30 @@
 	margin: 5px;
 	font-weight: 100;
 	font-size: 1.2em;
+	padding-left: 10px;
 }
 
 .meta-position {
 	font-weight: bold;
 	font-size: 1.2em;
 	/* color: rgb(6, 158, 145); */
-	color: rgb(194, 88, 2);
+	color: rgb(32, 107, 103);
+	margin: 0;
+}
+
+.meta-company-name {
+	font-weight: bold;
 }
 
 [class*='date'] {
 	color: grey;
+	margin: 0;
 }
 
 /* .meta-location {
 	color: bla;
 } */
 
-[class^="meta-"] {
-	margin: 0;
-}
+/* [class^="meta-"] {
+	margin-top: 0;
+} */

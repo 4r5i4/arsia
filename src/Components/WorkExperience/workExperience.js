@@ -11,16 +11,23 @@ const WorkExperience = (props) => {
 							<p className="meta-position">{experience.position}</p>
 							<p className="meta-company-name">{experience.companyName}</p>
 							<p className="meta-start-date">{experience.startDate}</p>
-							<p className="meta-to">to</p>
+							<p className="meta-to" style={{ margin: '0' }}>
+								to
+							</p>
 							<p className="meta-end-date">{experience.endDate}</p>
 							<p className="meta-location">{experience.location}</p>
 						</div>
 
-						<div className="experience-description">
+						<ul>
+							<li>TALAL IS AN ASSHOLE</li>
 							{experience.descriptions.map((description, index) => {
-								return <li key={index}>{description}</li>;
+								return (
+									<li key={index} className="experience-description">
+										<p>{description}</p>
+									</li>
+								);
 							})}
-						</div>
+						</ul>
 					</div>
 				);
 			})}
